@@ -3,7 +3,7 @@
 # then ingest mined-data/dsv/dsv.jsonl as ONE manual-result file (ingest_manual.sh: re-verify steps 1-3 + Frama-C, review by step 4, state.sh), then export_manual.sh and tag_final.sh.
 # The reviewer (step4, morph-dsv41flash-1017 with the unchanged reviewer prompt) is the SAME model as the fixer here. Dedupes (key,i): the last line wins. Never touches manual/results/.
 VB=${1:?review budget}; VPAR=${2:-100}
-HERE=$(cd "$(dirname "$0")" && pwd); DW=/mnt/c/ParanoidBSD/mined-data/dsv; REPO=/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79
+HERE=$(cd "$(dirname "$0")" && pwd); DW=/mnt/c/ParanoidBSD/mined-data/dsv; REPO=/mnt/c/ParanoidBSD/OS-Proving
 log() { echo "$(date '+%F %T') [finish] $*" | tee -a "$DW/finish.log"; }
 until [ -f "$DW/DONE" ] || [ -f "$DW/STOP" ] || [ -f "$DW/ingest.started" ]; do sleep 30; done   # the repair stage ends by finishing the list (DONE) or by the budget (STOP)
 [ -f "$DW/ingest.started" ] || while pgrep -f 'dsv_chunk.sh|dsv_all.sh' > /dev/null; do sleep 10; done   # in-flight calls finish first

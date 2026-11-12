@@ -2,7 +2,7 @@
 # finish_step4.sh   Runs in Git Bash on Windows (it has the GitHub credentials; WSL does not). Every hour: copies a gzip snapshot of the step 4 results into the
 # repository and commits and pushes it. When step 4 has finished (xcheck/DONE-batch and no step4_all.sh running): re-runs the tagging (tag_all.sh, in WSL),
 # commits the final tags and results, and exits. Rule zero: save work as you go.
-R=/c/ParanoidBSD/dreamy-mahavira-7e0e79; X=/c/ParanoidBSD/mined-data/verify/xcheck; O=$R/docs/plan/lib/code-mined/verify-results
+R=/c/ParanoidBSD/OS-Proving; X=/c/ParanoidBSD/mined-data/verify/xcheck; O=$R/docs/plan/lib/code-mined/verify-results
 cd "$R" || exit 1
 snap() {
   gzip -9 -c "$X/xcheck.jsonl" > "$O/xcheck.jsonl.gz"; cp "$X/watch.log" "$O/step4-watch.log" 2>/dev/null

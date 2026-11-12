@@ -1,7 +1,7 @@
 #!/bin/bash
 # finish_repair.sh   Git Bash on Windows. Every hour: gzip snapshot of the repairs (repair/repair.jsonl) into the repository, commit, push. When the repair run and its
 # re-verification are finished (verify-repair/summary.json newer than repair/DONE): commits the re-verified tags and exits. Rule zero: save work as you go.
-R=/c/ParanoidBSD/dreamy-mahavira-7e0e79; RP=/c/ParanoidBSD/mined-data/verify/repair; W=/c/ParanoidBSD/mined-data/verify-repair; O=$R/docs/plan/lib/code-mined/repair
+R=/c/ParanoidBSD/OS-Proving; RP=/c/ParanoidBSD/mined-data/verify/repair; W=/c/ParanoidBSD/mined-data/verify-repair; O=$R/docs/plan/lib/code-mined/repair
 mkdir -p "$O"; cd "$R" || exit 1
 snap() {
   [ -s "$RP/repair.jsonl" ] && gzip -9 -c "$RP/repair.jsonl" > "$O/repair.jsonl.gz"; cp "$RP/repair.log" "$O/repair.log" 2>/dev/null

@@ -4,7 +4,7 @@
 # ingest_manual.sh (re-verify steps 1-3 + Frama-C, DeepSeek step-4 review of the Claude fixes = an independent family, state.sh), export_manual.sh, tag_final.sh.
 # Run it only AFTER dsv_finish.sh has FINISHED (mined-data/dsv/FINISHED), because the ingest is one serial step.
 VB=${1:?review budget}; VPAR=${2:-100}; shift 2 2>/dev/null; JOBS=${*:-sonnet-tail opus-fail}
-HERE=$(cd "$(dirname "$0")" && pwd); CLD=/mnt/c/ParanoidBSD/mined-data/claude; DW=/mnt/c/ParanoidBSD/mined-data/dsv; REPO=/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79
+HERE=$(cd "$(dirname "$0")" && pwd); CLD=/mnt/c/ParanoidBSD/mined-data/claude; DW=/mnt/c/ParanoidBSD/mined-data/dsv; REPO=/mnt/c/ParanoidBSD/OS-Proving
 log() { echo "$(date '+%F %T') [cl_finish] $*" | tee -a "$CLD/finish.log"; }
 busy() { pgrep -f 'ingest_manual.sh|/state.sh|tag_final.sh|export_manual.sh|round_run.sh|dsv_finish.sh' | grep -vx "$$" > /dev/null; }
 until [ -f "$DW/FINISHED" ]; do log "waiting for the DeepSeek stage to finish (mined-data/dsv/FINISHED)"; sleep 120; done
