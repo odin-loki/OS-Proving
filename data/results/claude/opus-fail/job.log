@@ -1,0 +1,19 @@
+2026-11-12 23:46:36 job opus-fail: kind repair model claude-opus-5-5, batch size 50, in flight 1, cap $150, spent(all) $5.0132
+2026-11-12 23:47:27 submitted batch msgbatch_017iPMomJTuxKdBihqn8LPtX: 14 requests, estimate $0.4750, spent(all) $5.0132, reserved $0.4750
+2026-11-12 23:49:24 job opus-fail: kind repair model claude-opus-5-5, batch size 50, in flight 1, cap $150, spent(all) $5.0132
+2026-11-12 23:50:28 batch msgbatch_017iPMomJTuxKdBihqn8LPtX collected: ok 0, failed 14, spent(all) $5.5872
+2026-11-12 23:50:50 submitted batch msgbatch_01UfFWLYvUqssAnZeCM7Z955: 14 requests, estimate $0.4749, spent(all) $5.5872, reserved $4.4821
+2026-11-12 23:54:05 batch msgbatch_01UfFWLYvUqssAnZeCM7Z955 collected: ok 14, failed 0, spent(all) $6.0880
+2026-11-12 23:56:51 submitted batch msgbatch_016z1Mb52ekS1HPe9r8NGcaP: 1 requests, estimate $0.0336, spent(all) $9.4840, reserved $8.2580
+2026-11-12 23:58:55 batch msgbatch_016z1Mb52ekS1HPe9r8NGcaP collected: ok 1, failed 0, spent(all) $9.5216
+2026-11-13 00:20:35 submitted batch msgbatch_014vm64AhTh9HJFA83yb5BZi: 1 requests, estimate $0.0346, spent(all) $13.8191, reserved $10.2026
+2026-11-13 00:22:42 batch msgbatch_014vm64AhTh9HJFA83yb5BZi collected: ok 1, failed 0, spent(all) $17.7993
+2026-11-13 00:30:03 submitted batch msgbatch_011EnovM6pY87K3VHgWeP81g: 1 requests, estimate $0.0309, spent(all) $17.7993, reserved $10.1989
+2026-11-13 00:32:18 batch msgbatch_011EnovM6pY87K3VHgWeP81g collected: ok 1, failed 0, spent(all) $21.1856
+2026-11-13 00:34:23 submitted batch msgbatch_011WfSKtcCki9tRZtQJVMeTK: 1 requests, estimate $0.0311, spent(all) $21.1856, reserved $5.5166
+2026-11-13 00:35:38 batch msgbatch_011WfSKtcCki9tRZtQJVMeTK collected: ok 1, failed 0, spent(all) $21.2066
+2026-11-13 00:50:10 submitted batch msgbatch_01A9iU2fJ1YAxce4v2hE8hUQ: 1 requests, estimate $0.0328, spent(all) $21.2066, reserved $6.1799
+2026-11-13 00:53:17 batch msgbatch_01A9iU2fJ1YAxce4v2hE8hUQ collected: ok 1, failed 0, spent(all) $25.7605
+2026-11-13 01:01:15 batch create failed: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CgyA1J2HYyyTxirVv6Cdv"}
+2026-11-13 01:01:15 ALERT credit or auth error: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CgyA1J2HYyyTxirVv6Cdv"}
+2026-11-13 01:01:17 job ended: done 19 records, gave up 0, spent(all) $28.6164

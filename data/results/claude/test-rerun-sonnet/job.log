@@ -1,0 +1,5 @@
+2026-11-12 23:40:53 job test-rerun-sonnet: kind repair model claude-sonnet-5-5, batch size 50, in flight 1, cap $150, spent(all) $4.2794
+2026-11-12 23:40:58 submitted batch msgbatch_0174wnmnwbzz1t2Kk9xthmS8: 12 requests, estimate $0.2016, spent(all) $4.2794, reserved $0.6047
+2026-11-12 23:43:02 batch msgbatch_0174wnmnwbzz1t2Kk9xthmS8 collected: ok 12, failed 0, spent(all) $4.4777
+2026-11-12 23:43:02 no request could be built for batch 2
+2026-11-12 23:43:03 job ended: done 12 records, gave up 0, spent(all) $4.4777

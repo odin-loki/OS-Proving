@@ -1,0 +1,74 @@
+2026-11-12 23:46:35 watcher started for: sonnet-tail review-dsv opus-fail (spent $5.0132)
+2026-11-12 23:46:35 job sonnet-tail started
+2026-11-12 23:46:35 job review-dsv started
+2026-11-12 23:46:35 job opus-fail started
+2026-11-12 23:46:36 check 1: spent $5.0132 | sonnet-tail done=0 inflight=0 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=0 gaveup=0; 
+2026-11-12 23:47:37 check 2: spent $5.0132 | sonnet-tail done=0 inflight=0 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:48:38 check 3: spent $5.0132 | sonnet-tail done=0 inflight=0 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:49:23 watcher started for: sonnet-tail review-dsv opus-fail (spent $5.0132)
+2026-11-12 23:49:23 job sonnet-tail started
+2026-11-12 23:49:23 job review-dsv started
+2026-11-12 23:49:23 job opus-fail started
+2026-11-12 23:49:24 check 1: spent $5.0132 | sonnet-tail done=0 inflight=0 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:50:25 check 2: spent $5.0490 | sonnet-tail done=0 inflight=1 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:51:28 check 3: spent $5.5872 | sonnet-tail done=0 inflight=1 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:52:32 check 4: spent $5.6006 | sonnet-tail done=0 inflight=1 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:53:36 check 5: spent $5.6006 | sonnet-tail done=0 inflight=1 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=0 inflight=1 gaveup=0; 
+2026-11-12 23:54:42 check 6: spent $6.0880 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=14 inflight=0 gaveup=0; 
+2026-11-12 23:55:47 check 7: spent $9.4840 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=14 inflight=0 gaveup=0; 
+2026-11-12 23:56:51 check 8: spent $9.4840 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=14 inflight=1 gaveup=0; 
+2026-11-12 23:57:54 check 9: spent $9.4840 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=14 inflight=1 gaveup=0; 
+2026-11-12 23:58:57 check 10: spent $9.5216 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:00:01 check 11: spent $9.5216 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=0 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:01:05 check 12: spent $9.5216 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:02:07 check 13: spent $9.5216 | sonnet-tail done=0 inflight=2 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:03:10 check 14: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:04:13 check 15: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:05:17 check 16: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:06:20 check 17: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:07:23 check 18: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:08:26 check 19: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:09:30 check 20: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:10:35 check 21: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:11:40 check 22: spent $12.9987 | sonnet-tail done=296 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:12:45 check 23: spent $12.9987 | sonnet-tail done=595 inflight=0 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:13:49 check 24: spent $12.9987 | sonnet-tail done=595 inflight=0 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:14:52 check 25: spent $12.9987 | sonnet-tail done=595 inflight=0 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:15:55 check 26: spent $12.9987 | sonnet-tail done=595 inflight=1 gaveup=0; review-dsv done=0 inflight=1 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:17:01 check 27: spent $12.9987 | sonnet-tail done=595 inflight=1 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:18:09 check 28: spent $13.8191 | sonnet-tail done=595 inflight=1 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:19:16 check 29: spent $13.8191 | sonnet-tail done=595 inflight=1 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:20:24 check 30: spent $13.8191 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=15 inflight=0 gaveup=0; 
+2026-11-13 00:21:32 check 31: spent $17.7599 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=15 inflight=1 gaveup=0; 
+2026-11-13 00:22:38 check 32: spent $17.7599 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=15 inflight=1 gaveup=0; 
+2026-11-13 00:23:44 check 33: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=0 gaveup=0; 
+2026-11-13 00:24:51 check 34: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=0 gaveup=0; 
+2026-11-13 00:25:57 check 35: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=0 gaveup=0; 
+2026-11-13 00:27:03 check 36: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=0 gaveup=0; 
+2026-11-13 00:28:09 check 37: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=0 gaveup=0; 
+2026-11-13 00:29:15 check 38: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=0 gaveup=0; 
+2026-11-13 00:30:21 check 39: spent $17.7993 | sonnet-tail done=595 inflight=2 gaveup=0; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=1 gaveup=0; 
+2026-11-13 00:31:31 check 40: spent $21.1361 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=16 inflight=1 gaveup=0; 
+2026-11-13 00:32:49 check 41: spent $21.1856 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=17 inflight=0 gaveup=0; 
+2026-11-13 00:34:09 check 42: spent $21.1856 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=17 inflight=0 gaveup=0; 
+2026-11-13 00:35:28 check 43: spent $21.1856 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=17 inflight=1 gaveup=0; 
+2026-11-13 00:36:48 check 44: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:38:05 check 45: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:39:17 check 46: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:40:27 check 47: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:41:35 check 48: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:42:41 check 49: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:43:48 check 50: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:44:54 check 51: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:45:58 check 52: spent $21.2066 | sonnet-tail done=887 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:47:02 check 53: spent $21.2066 | sonnet-tail done=1184 inflight=0 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:48:06 check 54: spent $21.2066 | sonnet-tail done=1184 inflight=0 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:49:08 check 55: spent $21.2066 | sonnet-tail done=1184 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=0 gaveup=0; 
+2026-11-13 00:50:12 check 56: spent $21.2066 | sonnet-tail done=1184 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=1 gaveup=0; 
+2026-11-13 00:51:15 check 57: spent $21.2066 | sonnet-tail done=1184 inflight=1 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=1 gaveup=0; 
+2026-11-13 00:52:18 check 58: spent $21.2066 | sonnet-tail done=1184 inflight=2 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=18 inflight=1 gaveup=0; 
+2026-11-13 00:53:22 check 59: spent $25.7605 | sonnet-tail done=1184 inflight=2 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=19 inflight=0 gaveup=0; 
+2026-11-13 00:54:26 check 60: spent $25.7605 | sonnet-tail done=1184 inflight=2 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=19 inflight=0 gaveup=0; 
+2026-11-13 00:55:29 check 61: spent $25.7605 | sonnet-tail done=1184 inflight=2 gaveup=4; review-dsv done=0 inflight=2 gaveup=0; opus-fail done=19 inflight=0 gaveup=0; 
+2026-11-13 01:05:31 ALERT in job opus-fail: stopping all jobs (top up, delete STOP files, run start_claude.cmd again: it resumes)
+2026-11-13 01:05:33 global STOP file: watcher ends (spent $28.6164)

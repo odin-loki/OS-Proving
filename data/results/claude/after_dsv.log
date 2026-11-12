@@ -1,0 +1,53 @@
+2026-11-13 08:20:23 [after_dsv] dsv finished; its round is 15
+round 15: 2360 Claude review lines for 2360 keys applied (replace); xcheck.jsonl now 19462 lines (backup xcheck.jsonl.before-claude). Next: bash state.sh
+{"still-rejected":1161,"dropped":1646,"kept-unchecked":546140,"rejected-unrepaired":59032,"fixed-agree":104987,"fixed-unreviewed":2236,"kept-verified":415743,"fixed-disagree":4648}
+2026-11-13 08:20:46 [after_dsv] redo-D: ingest (review budget $2.5)
+round 16: 12 records from 19 function results
+2026-11-13 08:20:50 [round 16] start: repair budget $0, review budget $2.5
+2026-11-13 08:20:50 [round 16] repair stage over: 12 records repaired, spent $0
+2026-11-13 08:20:50 [round 16] re-verify
+2026-11-13 08:21:08 [round 16] re-verified: {"functions":19,"status":{"fixed":19},"still_rejected_because":null}
+records: 12  functions: 19
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:21:08 watcher started
+2026-11-13 08:21:08 step 4 started (budget $2.5, parallel 100)
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:21:08 ALERT corrupt lines at the end of xcheck.jsonl
+2026-11-13 08:21:08 check 1: alive=yes records=0 (+0, 0/min) errors=0 (+0) failed=0 spent=$/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:21:23 ALERT corrupt lines at the end of xcheck.jsonl
+2026-11-13 08:21:23 check 2: alive=yes records=0 (+0, 0/min) errors=0 (+0) failed=0 spent=$/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:21:38 check 3: alive=yes records=1 (+1, 4/min) errors=0 (+0) failed=0 spent=$0.00/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:21:53 check 4: alive=yes records=1 (+0, 0/min) errors=0 (+0) failed=0 spent=$0.00/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:22:09 check 5: alive=yes records=1 (+0, 0/min) errors=0 (+0) failed=0 spent=$0.00/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:22:24 check 6: alive=yes records=2 (+1, 4/min) errors=0 (+0) failed=0 spent=$0.00/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:22:39 check 7: alive=yes records=4 (+2, 8/min) errors=0 (+0) failed=0 spent=$0.01/$2.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair16/xcheck/errors.log: No such file or directory
+2026-11-13 08:22:54 check 8: alive=yes records=5 (+1, 4/min) errors=0 (+0) failed=0 spent=$0.02/$2.5 restarts=0
+2026-11-13 08:23:09 check 9: alive=yes records=5 (+0, 0/min) errors=3 (+3) failed=0 spent=$0.05/$2.5 restarts=0
+2026-11-13 08:23:24 check 10: alive=yes records=6 (+1, 4/min) errors=7 (+4) failed=0 spent=$0.08/$2.5 restarts=0
+2026-11-13 08:23:39 check 11: alive=yes records=6 (+0, 0/min) errors=7 (+0) failed=0 spent=$0.08/$2.5 restarts=0
+2026-11-13 08:23:54 check 12: alive=yes records=6 (+0, 0/min) errors=7 (+0) failed=0 spent=$0.08/$2.5 restarts=0
+2026-11-13 08:24:09 check 13: alive=yes records=6 (+0, 0/min) errors=7 (+0) failed=0 spent=$0.08/$2.5 restarts=0
+2026-11-13 08:24:25 check 14: alive=yes records=6 (+0, 0/min) errors=7 (+0) failed=0 spent=$0.08/$2.5 restarts=0
+2026-11-13 08:24:40 check 15: alive=yes records=7 (+1, 4/min) errors=7 (+0) failed=0 spent=$0.09/$2.5 restarts=0
+2026-11-13 08:24:55 check 16: alive=yes records=8 (+1, 4/min) errors=7 (+0) failed=0 spent=$0.10/$2.5 restarts=0
+2026-11-13 08:25:10 check 17: alive=yes records=8 (+0, 0/min) errors=7 (+0) failed=0 spent=$0.10/$2.5 restarts=0
+2026-11-13 08:25:25 check 18: alive=yes records=8 (+0, 0/min) errors=8 (+1) failed=0 spent=$0.10/$2.5 restarts=0
+2026-11-13 08:25:40 check 19: alive=yes records=8 (+0, 0/min) errors=11 (+3) failed=0 spent=$0.13/$2.5 restarts=0
+2026-11-13 08:25:55 check 20: alive=yes records=8 (+0, 0/min) errors=11 (+0) failed=0 spent=$0.13/$2.5 restarts=0
+2026-11-13 08:26:11 check 21: alive=yes records=8 (+0, 0/min) errors=11 (+0) failed=0 spent=$0.13/$2.5 restarts=0
+2026-11-13 08:27:11 check 22: alive=yes records=9 (+1, 1/min) errors=12 (+1) failed=0 spent=$0.14/$2.5 restarts=0
+2026-11-13 08:28:11 finished: 9 records, spent $0.16
+2026-11-13 08:28:11 [round 16] review stage over: 9 records, spent $0.1611, failed keys 3
+2026-11-13 08:28:24 [round 16] round done
+state after:
+{"still-rejected":1161,"dropped":1646,"kept-unchecked":546140,"rejected-unrepaired":59032,"fixed-agree":104988,"fixed-unreviewed":2235,"kept-verified":415743,"fixed-disagree":4648}

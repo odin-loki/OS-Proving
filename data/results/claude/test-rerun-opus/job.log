@@ -1,0 +1,5 @@
+2026-11-12 23:40:53 job test-rerun-opus: kind repair model claude-opus-5-5, batch size 50, in flight 1, cap $150, spent(all) $4.2794
+2026-11-12 23:40:58 submitted batch msgbatch_01LJpYg2UpPhbWPumJBQafru: 12 requests, estimate $0.4031, spent(all) $4.2794, reserved $0.6047
+2026-11-12 23:44:02 batch msgbatch_01LJpYg2UpPhbWPumJBQafru collected: ok 12, failed 0, spent(all) $5.0132
+2026-11-12 23:44:03 no request could be built for batch 2
+2026-11-12 23:44:03 job ended: done 12 records, gave up 0, spent(all) $5.0132

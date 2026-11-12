@@ -1,0 +1,21 @@
+round 5: 35 records from 40 function results
+2026-11-12 20:05:43 [round 5] start: repair budget $0, review budget $4
+2026-11-12 20:05:43 [round 5] repair stage over: 35 records repaired, spent $0
+2026-11-12 20:05:43 [round 5] re-verify
+2026-11-12 20:06:32 [round 5] re-verified: {"functions":40,"status":{"fixed":40},"still_rejected_because":null}
+records: 35  functions: 40
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair5/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair5/xcheck/errors.log: No such file or directory
+2026-11-12 20:06:32 watcher started
+2026-11-12 20:06:32 step 4 started (budget $4, parallel 100)
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair5/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair5/xcheck/errors.log: No such file or directory
+2026-11-12 20:06:32 ALERT corrupt lines at the end of xcheck.jsonl
+2026-11-12 20:06:32 check 1: alive=yes records=0 (+0, 0/min) errors=0 (+0) failed=0 spent=$/$4 restarts=0
+2026-11-12 20:07:32 check 2: alive=yes records=30 (+30, 30/min) errors=1 (+1) failed=0 spent=$0.06/$4 restarts=0
+2026-11-12 20:08:32 check 3: alive=yes records=34 (+4, 4/min) errors=3 (+2) failed=0 spent=$0.10/$4 restarts=0
+2026-11-12 20:09:32 finished: 35 records, spent $0.10
+2026-11-12 20:09:32 [round 5] review stage over: 35 records, spent $0.1013, failed keys 0
+2026-11-12 20:11:45 [round 5] round done
+state after:
+{"still-rejected":4195,"dropped":7791,"kept-unchecked":546140,"rejected-unrepaired":64184,"fixed-agree":83244,"fixed-unreviewed":5128,"kept-verified":415743,"fixed-disagree":9168}

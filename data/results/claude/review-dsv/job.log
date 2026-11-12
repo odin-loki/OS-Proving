@@ -1,0 +1,5 @@
+2026-11-12 23:46:36 job review-dsv: kind review model claude-haiku-5-5, batch size 2000, in flight 2, cap $150, spent(all) $5.0132
+2026-11-12 23:49:24 job review-dsv: kind review model claude-haiku-5-5, batch size 2000, in flight 2, cap $150, spent(all) $5.0132
+2026-11-13 00:00:54 submitted batch msgbatch_01AJhssojjGKcDDR5w87BkvW: 2000 requests, estimate $0.5995, spent(all) $9.5216, reserved $8.8239
+2026-11-13 00:16:06 submitted batch msgbatch_0195VzFahBs66aPDwVni4MLz: 2000 requests, estimate $0.5827, spent(all) $12.9987, reserved $5.8647
+2026-11-13 02:11:28 batch msgbatch_01AJhssojjGKcDDR5w87BkvW collected: ok 1999, failed 1, spent(all) $28.6164

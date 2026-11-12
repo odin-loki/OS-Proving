@@ -1,0 +1,26 @@
+round 13: 33 records from 41 function results
+2026-11-13 00:48:37 [round 13] start: repair budget $0, review budget $1.5
+2026-11-13 00:48:37 [round 13] repair stage over: 33 records repaired, spent $0
+2026-11-13 00:48:37 [round 13] re-verify
+2026-11-13 00:52:01 [round 13] re-verified: {"functions":41,"status":{"fixed":41},"still_rejected_because":null}
+records: 33  functions: 41
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair13/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair13/xcheck/errors.log: No such file or directory
+2026-11-13 00:52:02 watcher started
+2026-11-13 00:52:02 step 4 started (budget $1.5, parallel 100)
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair13/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair13/xcheck/errors.log: No such file or directory
+2026-11-13 00:52:02 ALERT corrupt lines at the end of xcheck.jsonl
+2026-11-13 00:52:02 check 1: alive=yes records=0 (+0, 0/min) errors=0 (+0) failed=0 spent=$/$1.5 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair13/xcheck/errors.log: No such file or directory
+2026-11-13 00:53:02 check 2: alive=yes records=8 (+8, 8/min) errors=0 (+0) failed=0 spent=$0.02/$1.5 restarts=0
+2026-11-13 00:54:02 check 3: alive=yes records=23 (+15, 15/min) errors=4 (+4) failed=0 spent=$0.13/$1.5 restarts=0
+2026-11-13 00:55:03 check 4: alive=yes records=25 (+2, 2/min) errors=8 (+4) failed=0 spent=$0.18/$1.5 restarts=0
+2026-11-13 00:56:03 check 5: alive=yes records=27 (+2, 2/min) errors=10 (+2) failed=0 spent=$0.21/$1.5 restarts=0
+2026-11-13 00:57:03 check 6: alive=yes records=31 (+4, 4/min) errors=11 (+1) failed=0 spent=$0.24/$1.5 restarts=0
+2026-11-13 00:58:04 check 7: alive=yes records=31 (+0, 0/min) errors=12 (+1) failed=0 spent=$0.25/$1.5 restarts=0
+2026-11-13 00:59:04 finished: 31 records, spent $0.26
+2026-11-13 00:59:05 [round 13] review stage over: 31 records, spent $0.2579, failed keys 2
+2026-11-13 01:18:43 [round 13] round done
+state after:
+{"still-rejected":4121,"dropped":7746,"kept-unchecked":546140,"rejected-unrepaired":64184,"fixed-agree":83473,"fixed-unreviewed":5105,"kept-verified":415743,"fixed-disagree":9081}

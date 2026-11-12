@@ -1,0 +1,22 @@
+round 6: 28 records from 40 function results
+2026-11-12 20:12:16 [round 6] start: repair budget $0, review budget $4
+2026-11-12 20:12:16 [round 6] repair stage over: 28 records repaired, spent $0
+2026-11-12 20:12:16 [round 6] re-verify
+2026-11-12 20:13:00 [round 6] re-verified: {"functions":40,"status":{"fixed":40},"still_rejected_because":null}
+records: 28  functions: 40
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair6/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair6/xcheck/errors.log: No such file or directory
+2026-11-12 20:13:00 watcher started
+2026-11-12 20:13:00 step 4 started (budget $4, parallel 100)
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair6/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair6/xcheck/errors.log: No such file or directory
+2026-11-12 20:13:00 ALERT corrupt lines at the end of xcheck.jsonl
+2026-11-12 20:13:00 check 1: alive=yes records=0 (+0, 0/min) errors=0 (+0) failed=0 spent=$/$4 restarts=0
+2026-11-12 20:14:00 check 2: alive=yes records=25 (+25, 25/min) errors=1 (+1) failed=0 spent=$0.05/$4 restarts=0
+2026-11-12 20:15:00 check 3: alive=yes records=27 (+2, 2/min) errors=3 (+2) failed=0 spent=$0.07/$4 restarts=0
+2026-11-12 20:16:01 check 4: alive=yes records=27 (+0, 0/min) errors=4 (+1) failed=0 spent=$0.08/$4 restarts=0
+2026-11-12 20:17:01 finished: 27 records, spent $0.09
+2026-11-12 20:17:01 [round 6] review stage over: 27 records, spent $0.0913, failed keys 1
+2026-11-12 20:21:44 [round 6] round done
+state after:
+{"still-rejected":4182,"dropped":7785,"kept-unchecked":546140,"rejected-unrepaired":64184,"fixed-agree":83267,"fixed-unreviewed":5127,"kept-verified":415743,"fixed-disagree":9165}

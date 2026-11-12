@@ -1,0 +1,15 @@
+2026-11-12 23:46:36 job sonnet-tail: kind repair model claude-sonnet-5-5, batch size 300, in flight 2, cap $150, spent(all) $5.0132
+2026-11-12 23:49:24 job sonnet-tail: kind repair model claude-sonnet-5-5, batch size 300, in flight 2, cap $150, spent(all) $5.0132
+2026-11-12 23:50:06 submitted batch msgbatch_019NAkhwXbkvSNiMAH7aP8Aq: 300 requests, estimate $4.0072, spent(all) $5.0490, reserved $4.4822
+2026-11-12 23:54:34 submitted batch msgbatch_01EYMdEzNydbgY9LJtYqEybT: 300 requests, estimate $4.2172, spent(all) $6.0880, reserved $8.2244
+2026-11-13 00:02:40 batch msgbatch_019NAkhwXbkvSNiMAH7aP8Aq collected: ok 296, failed 4, spent(all) $9.5216
+2026-11-13 00:12:19 batch msgbatch_01EYMdEzNydbgY9LJtYqEybT collected: ok 299, failed 1, spent(all) $12.9987
+2026-11-13 00:15:00 submitted batch msgbatch_01DShq5ESL7kbhZYWoSEJsRQ: 300 requests, estimate $4.6825, spent(all) $12.9987, reserved $5.2820
+2026-11-13 00:20:09 submitted batch msgbatch_01QCfC3ZpJdC7wtYEparTRDn: 300 requests, estimate $4.3033, spent(all) $13.8191, reserved $10.1680
+2026-11-13 00:30:42 batch msgbatch_01DShq5ESL7kbhZYWoSEJsRQ collected: ok 292, failed 8, spent(all) $17.7993
+2026-11-13 00:46:28 batch msgbatch_01QCfC3ZpJdC7wtYEparTRDn collected: ok 297, failed 3, spent(all) $21.2066
+2026-11-13 00:48:56 submitted batch msgbatch_01J7RofEeAWJjdBG2HgLkVuv: 300 requests, estimate $4.9649, spent(all) $21.2066, reserved $6.1471
+2026-11-13 00:51:47 submitted batch msgbatch_01RdkMNqJB3NqYa4faRornxu: 300 requests, estimate $3.7339, spent(all) $21.2066, reserved $9.9138
+2026-11-13 01:00:24 batch msgbatch_01J7RofEeAWJjdBG2HgLkVuv collected: ok 297, failed 3, spent(all) $25.7605
+2026-11-13 01:09:49 batch msgbatch_01RdkMNqJB3NqYa4faRornxu collected: ok 294, failed 6, spent(all) $28.6164
+2026-11-13 01:09:52 job ended: done 1775 records, gave up 6, spent(all) $28.6164

@@ -1,0 +1,21 @@
+round 11: 31 records from 40 function results
+2026-11-12 22:39:57 [round 11] start: repair budget $0, review budget $4
+2026-11-12 22:39:57 [round 11] repair stage over: 31 records repaired, spent $0
+2026-11-12 22:39:57 [round 11] re-verify
+2026-11-12 22:46:20 [round 11] re-verified: {"functions":40,"status":{"fixed":40},"still_rejected_because":null}
+records: 31  functions: 40
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair11/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 12: /mnt/c/ParanoidBSD/mined-data/verify-repair11/xcheck/errors.log: No such file or directory
+2026-11-12 22:46:21 watcher started
+2026-11-12 22:46:21 step 4 started (budget $4, parallel 100)
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair11/xcheck/xcheck.jsonl: No such file or directory
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair11/xcheck/errors.log: No such file or directory
+2026-11-12 22:46:21 ALERT corrupt lines at the end of xcheck.jsonl
+2026-11-12 22:46:21 check 1: alive=yes records=0 (+0, 0/min) errors=0 (+0) failed=0 spent=$/$4 restarts=0
+/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/step4_watch.sh: line 19: /mnt/c/ParanoidBSD/mined-data/verify-repair11/xcheck/errors.log: No such file or directory
+2026-11-12 22:47:21 check 2: alive=yes records=28 (+28, 28/min) errors=0 (+0) failed=0 spent=$0.04/$4 restarts=0
+2026-11-12 22:48:22 finished: 31 records, spent $0.06
+2026-11-12 22:48:22 [round 11] review stage over: 31 records, spent $0.0592, failed keys 0
+2026-11-12 23:02:15 [round 11] round done
+state after:
+{"still-rejected":4121,"dropped":7746,"kept-unchecked":546140,"rejected-unrepaired":64184,"fixed-agree":83405,"fixed-unreviewed":5121,"kept-verified":415743,"fixed-disagree":9133}
