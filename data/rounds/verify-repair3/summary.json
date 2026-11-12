@@ -1,0 +1,10 @@
+{
+  "functions": 40,
+  "status": {
+    "fixed": 39,
+    "still-rejected": 1
+  },
+  "still_rejected_because": {
+    "mech": 1
+  }
+}

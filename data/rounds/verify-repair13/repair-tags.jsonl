@@ -1,0 +1,41 @@
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/badblocks.c:813-1063","i":1,"name":"_badblocks_set","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/tree-mod-log.c:1020-1149","i":0,"name":"btrfs_get_old_root","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:4177-4431","i":2,"name":"bfq_bfqq_expire","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/volumes.c:2841-3092","i":0,"name":"btrfs_init_new_device","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/compression.c:1292-1560","i":3,"name":"radix_sort","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/extents.c:2046-2300","i":0,"name":"ext4_ext_insert_extent","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/extent_map.c:1045-1297","i":0,"name":"btrfs_split_extent_map","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/file.c:2306-2583","i":1,"name":"btrfs_replace_file_extents","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/inode.c:1307-1564","i":0,"name":"cow_file_range","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/inode.c:3093-3376","i":1,"name":"btrfs_finish_one_ordered","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/transaction.c:1781-2031","i":0,"name":"create_pending_snapshot","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/transaction.c:2032-2284","i":6,"name":"btrfs_commit_transaction","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/transaction.c:2285-2540","i":0,"name":"btrfs_commit_transaction","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/tree-log.c:774-1034","i":0,"name":"replay_one_extent","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/tree-log.c:7559-7816","i":1,"name":"btrfs_recover_log_trees","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/9p/vfs_inode_dotl.c:252-504","i":0,"name":"v9fs_vfs_atomic_open_dotl","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/zoned.c:1037-1287","i":0,"name":"btrfs_find_allocatable_zones","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/affs/dir.c:1-176","i":3,"name":"affs_readdir","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ceph/caps.c:3577-3828","i":0,"name":"handle_cap_grant","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/afs/validation.c:1-253","i":3,"name":"afs_update_volume_creation_time","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ceph/dir.c:267-522","i":1,"name":"ceph_readdir","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/afs/vl_rotate.c:1-252","i":2,"name":"afs_select_vlserver","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ceph/inode.c:2590-2841","i":0,"name":"__ceph_setattr","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:1784-2038","i":0,"name":"aio_poll_wake","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:1784-2038","i":2,"name":"aio_poll","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:1784-2038","i":3,"name":"__io_submit_one","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2039-2291","i":1,"name":"SYSCALL_DEFINE3(io_submit, aio_context_t, ctx_id, long, nr,","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2039-2291","i":3,"name":"SYSCALL_DEFINE3(io_cancel, aio_context_t, ctx_id, struct iocb __user *, iocb,","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2039-2291","i":5,"name":"SYSCALL_DEFINE5(io_getevents, aio_context_t, ctx_id,","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2039-2291","i":6,"name":"SYSCALL_DEFINE6(io_pgetevents","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2292-2445","i":0,"name":"SYSCALL_DEFINE6(io_pgetevents_time32","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2292-2445","i":1,"name":"SYSCALL_DEFINE5(io_getevents_time32, __u32, ctx_id,","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2292-2445","i":2,"name":"COMPAT_SYSCALL_DEFINE6(io_pgetevents,","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/aio.c:2292-2445","i":3,"name":"COMPAT_SYSCALL_DEFINE6(io_pgetevents_time64,","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ceph/locks.c:260-512","i":0,"name":"ceph_lock","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/binfmt_elf_fdpic.c:516-770","i":0,"name":"create_elf_fdpic_tables","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/coda/upcall.c:517-773","i":5,"name":"coda_upcall","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/accessors.h:254-509","i":15,"name":"BTRFS_SETGET_FUNCS(inode_size, struct btrfs_inode_item, size, 64)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/ecryptfs_kernel.h:512-702","i":1,"name":"static inline void ecryptfs_release_messaging(void)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/btrfs/backref.c:514-764","i":4,"name":"resolve_indirect_refs","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:776-1027","i":4,"name":"de_thread","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}

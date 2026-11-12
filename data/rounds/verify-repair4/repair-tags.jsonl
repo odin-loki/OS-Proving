@@ -1,0 +1,40 @@
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/badblocks.c:813-1063","i":1,"name":"_badblocks_set","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/kyber-iosched.c:786-1036","i":2,"name":"KYBER_LAT_SHOW_STORE(KYBER_READ, read)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/kyber-iosched.c:786-1036","i":3,"name":"KYBER_LAT_SHOW_STORE(KYBER_READ, read)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:1-253","i":0,"name":"BFQ_BFQQ_FNS(just_created)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:1-253","i":1,"name":"BFQ_BFQQ_FNS(just_created)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:1-253","i":2,"name":"BFQ_BFQQ_FNS(just_created)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:1017-1274","i":5,"name":"bfq_bfqq_resume_state","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:2908-3162","i":0,"name":"bfq_bfqq_save_state","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:3669-3925","i":1,"name":"__bfq_bfqq_expire","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:4177-4431","i":2,"name":"bfq_bfqq_expire","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:5501-5757","i":0,"name":"bfq_set_next_ioprio_data","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bfq-iosched.c:5758-6058","i":4,"name":"bfq_update_has_short_ttime","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/mq-deadline.c:771-1032","i":5,"name":"DEADLINE_DEBUGFS_DDIR_ATTRS(DD_RT_PRIO, DD_READ, read0)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/mq-deadline.c:771-1032","i":6,"name":"DEADLINE_DEBUGFS_DDIR_ATTRS(DD_RT_PRIO, DD_READ, read0)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-mq.c:2039-2297","i":7,"name":"blk_mq_hctx_next_cpu","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-pm.c:1-191","i":2,"name":"blk_post_runtime_suspend","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-timeout.c:1-167","i":6,"name":"blk_timeout_init","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-timeout.c:1-167","i":8,"name":"blk_rq_timeout","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-timeout.c:1-167","i":9,"name":"blk_add_timer","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/disk-events.c:1-254","i":2,"name":"__disk_unblock_events","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/disk-events.c:1-254","i":4,"name":"disk_flush_events","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/disk-events.c:1-254","i":5,"name":"disk_event_uevent","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/disk-events.c:1-254","i":7,"name":"disk_clear_events","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/elevator.c:507-760","i":2,"name":"elevator_switch","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/elevator.c:507-760","i":7,"name":"elevator_set_default","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/ioprio.c:1-249","i":0,"name":"ioprio_check_cap","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/ioprio.c:1-249","i":1,"name":"SYSCALL_DEFINE3(ioprio_set, int, which, int, who, int, ioprio)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/ioprio.c:1-249","i":5,"name":"SYSCALL_DEFINE2(ioprio_get, int, which, int, who)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bio.c:280-534","i":6,"name":"blk_next_bio","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/bio.c:280-534","i":7,"name":"bio_alloc_rescue","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/partitions/acorn.c:516-550","i":0,"name":"adfspart_check_EESOX","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-cgroup.c:253-509","i":4,"name":"blkg_create","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-cgroup.c:1529-1781","i":2,"name":"blkcg_activate_policy","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-core.c:1-252","i":3,"name":"errno_to_blk_status","action":"fix","after":{"mech":"pass","syntax":"pass","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-crypto-profile.c:256-511","i":0,"name":"blk_crypto_get_keyslot","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-iocost.c:1025-1286","i":8,"name":"iocg_activate","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-iolatency.c:509-762","i":3,"name":"blkiolatency_timer_fn","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-mq-cpumap.c:1-132","i":1,"name":"blk_mq_num_possible_queues","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-mq-cpumap.c:1-132","i":2,"name":"blk_mq_num_online_queues","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/block/blk-mq-sched.h:1-145","i":10,"name":"blk_mq_is_sync_read","action":"fix","after":{"mech":"pass","syntax":"pass","fuzz":"skip"},"status":"fixed"}

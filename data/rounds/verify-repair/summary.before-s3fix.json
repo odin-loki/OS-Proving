@@ -1,0 +1,12 @@
+{
+  "functions": 80960,
+  "status": {
+    "dropped": 6779,
+    "fixed": 67994,
+    "still-rejected": 6187
+  },
+  "still_rejected_because": {
+    "mech": 5714,
+    "syntax": 527
+  }
+}

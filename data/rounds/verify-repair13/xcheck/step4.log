@@ -1,0 +1,21 @@
+2026-11-13 00:52:02 step 4: 33 records to do (cap 999999), budget $1.5, spent so far $0, parallel 100 (continuous stream)
+2026-11-13 00:52:22 step 4: 1 records done, spent $0.0004, failed 0
+2026-11-13 00:52:42 step 4: 2 records done, spent $0.0023, failed 0
+2026-11-13 00:53:02 step 4: 8 records done, spent $0.0163, failed 0
+2026-11-13 00:53:22 step 4: 15 records done, spent $0.0447, failed 0
+2026-11-13 00:53:42 step 4: 19 records done, spent $0.0780, failed 0
+2026-11-13 00:54:03 step 4: 23 records done, spent $0.1321, failed 0
+2026-11-13 00:54:23 step 4: 24 records done, spent $0.1733, failed 0
+2026-11-13 00:54:43 step 4: 24 records done, spent $0.1733, failed 0
+2026-11-13 00:55:03 step 4: 25 records done, spent $0.1808, failed 0
+2026-11-13 00:55:23 step 4: 26 records done, spent $0.2034, failed 0
+2026-11-13 00:55:43 step 4: 27 records done, spent $0.2084, failed 0
+2026-11-13 00:56:03 step 4: 27 records done, spent $0.2084, failed 0
+2026-11-13 00:56:24 step 4: 30 records done, spent $0.2329, failed 0
+2026-11-13 00:56:44 step 4: 31 records done, spent $0.2411, failed 0
+2026-11-13 00:57:04 step 4: 31 records done, spent $0.2411, failed 0
+2026-11-13 00:57:24 step 4: 31 records done, spent $0.2411, failed 0
+2026-11-13 00:57:44 step 4: 31 records done, spent $0.2411, failed 0
+2026-11-13 00:58:05 step 4: 31 records done, spent $0.2495, failed 0
+2026-11-13 00:58:25 step 4: 31 records done, spent $0.2579, failed 1
+2026-11-13 00:58:38 step 4 finished: 31 records, spent $0.2579

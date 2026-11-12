@@ -1,0 +1,33 @@
+{
+  "rounds": 4,
+  "by_status": {
+    "still-rejected": 4203,
+    "dropped": 7792,
+    "kept-unchecked": 546140,
+    "rejected-unrepaired": 64184,
+    "fixed-agree": 83210,
+    "fixed-unreviewed": 5135,
+    "kept-verified": 415743,
+    "fixed-disagree": 9186
+  },
+  "by_status_round": {
+    "kept-verified r0": 415743,
+    "fixed-agree r1": 44935,
+    "kept-unchecked r0": 546140,
+    "fixed-disagree r1": 37,
+    "dropped r1": 6753,
+    "fixed-agree r2": 38202,
+    "fixed-agree r3": 39,
+    "dropped r2": 1039,
+    "fixed-disagree r2": 9145,
+    "still-rejected r1": 24,
+    "fixed-agree r4": 34,
+    "fixed-disagree r4": 4,
+    "fixed-unreviewed r1": 1579,
+    "still-rejected r2": 4178,
+    "still-rejected r3": 1,
+    "fixed-unreviewed r2": 3554,
+    "rejected-unrepaired r0": 64184,
+    "fixed-unreviewed r4": 2
+  }
+}

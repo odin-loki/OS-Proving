@@ -1,0 +1,30 @@
+2026-11-12 22:01:13 step 4: 32 records to do (cap 999999), budget $4, spent so far $0, parallel 100 (continuous stream)
+2026-11-12 22:01:33 step 4: 1 records done, spent $0.0012, failed 0
+2026-11-12 22:01:53 step 4: 6 records done, spent $0.0078, failed 0
+2026-11-12 22:02:14 step 4: 11 records done, spent $0.0141, failed 0
+2026-11-12 22:02:34 step 4: 14 records done, spent $0.0181, failed 0
+2026-11-12 22:02:55 step 4: 19 records done, spent $0.0393, failed 0
+2026-11-12 22:03:15 step 4: 22 records done, spent $0.0741, failed 0
+2026-11-12 22:03:35 step 4: 22 records done, spent $0.0741, failed 0
+2026-11-12 22:03:56 step 4: 23 records done, spent $0.0770, failed 0
+2026-11-12 22:04:16 step 4: 24 records done, spent $0.0783, failed 0
+2026-11-12 22:04:36 step 4: 24 records done, spent $0.0783, failed 0
+2026-11-12 22:04:57 step 4: 24 records done, spent $0.0783, failed 0
+2026-11-12 22:05:17 step 4: 24 records done, spent $0.0867, failed 0
+2026-11-12 22:05:37 step 4: 25 records done, spent $0.0896, failed 0
+2026-11-12 22:05:58 step 4: 25 records done, spent $0.0896, failed 0
+2026-11-12 22:06:18 step 4: 26 records done, spent $0.0931, failed 0
+2026-11-12 22:06:38 step 4: 26 records done, spent $0.0931, failed 0
+2026-11-12 22:06:59 step 4: 27 records done, spent $0.0957, failed 0
+2026-11-12 22:07:19 step 4: 27 records done, spent $0.1126, failed 0
+2026-11-12 22:07:39 step 4: 28 records done, spent $0.1175, failed 1
+2026-11-12 22:08:00 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:08:21 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:08:41 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:09:01 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:09:22 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:09:42 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:10:03 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:10:23 step 4: 30 records done, spent $0.1303, failed 1
+2026-11-12 22:10:44 step 4: 30 records done, spent $0.1388, failed 1
+2026-11-12 22:10:52 step 4 finished: 30 records, spent $0.1388

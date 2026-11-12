@@ -1,0 +1,40 @@
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/dlm/midcomms.c:1283-1509","i":0,"name":"dlm_midcomms_version_wait","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/dlm/midcomms.c:1283-1509","i":1,"name":"midcomms_shutdown","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/dlm/midcomms.c:1283-1509","i":3,"name":"dlm_midcomms_close","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/crypto.c:1-248","i":7,"name":"ext4_set_context","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/dlm/recover.c:255-506","i":10,"name":"recover_master","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/ext4.h:2078-2332","i":0,"name":"EXT4_FEATURE_COMPAT_FUNCS(journal,  HAS_JOURNAL)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/ext4.h:2078-2332","i":1,"name":"EXT4_FEATURE_COMPAT_FUNCS(journal,  HAS_JOURNAL)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/ext4.h:2078-2332","i":2,"name":"EXT4_FEATURE_COMPAT_FUNCS(journal,  HAS_JOURNAL)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/ext4.h:2078-2332","i":3,"name":"EXTN_FEATURE_FUNCS(4)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exfat/cache.c:254-314","i":0,"name":"exfat_get_cluster","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exfat/inode.c:255-512","i":0,"name":"exfat_get_block","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exfat/super.c:784-927","i":5,"name":"init_exfat_fs","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext2/acl.c:258-276","i":0,"name":"ext2_init_acl","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext2/dir.c:256-537","i":6,"name":"ext2_set_link","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext2/super.c:1015-1266","i":0,"name":"ext2_fill_super","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext2/super.c:1533-1734","i":0,"name":"ext2_quota_read","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/dlm/util.c:1-66","i":0,"name":"to_dlm_errno","action":"fix","after":{"mech":"pass","syntax":"pass","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/dlm/util.c:1-66","i":1,"name":"from_dlm_errno","action":"fix","after":{"mech":"pass","syntax":"pass","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/extents.c:2046-2300","i":0,"name":"ext4_ext_insert_extent","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/ecryptfs_kernel.h:512-702","i":1,"name":"static inline void ecryptfs_release_messaging(void)","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/extents_status.c:1058-1313","i":0,"name":"ext4_es_lookup_extent","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/keystore.c:1-282","i":1,"name":"process_find_global_auth_tok_for_sig_err","action":"fix","after":{"mech":"pass","syntax":"pass","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/keystore.c:1374-1626","i":0,"name":"parse_tag_3_packet","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/fast_commit.c:269-519","i":0,"name":"ext4_fc_mark_ineligible","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/fast_commit.c:1848-2100","i":4,"name":"ext4_fc_value_len_isvalid","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/fast_commit.c:2101-2345","i":1,"name":"ext4_fc_replay","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/main.c:253-504","i":0,"name":"ecryptfs_parse_param","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/main.c:253-504","i":2,"name":"ecryptfs_get_tree","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ext4/ialloc.c:1-267","i":0,"name":"ext4_mark_bitmap_end","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/ecryptfs/miscdev.c:1-301","i":1,"name":"ecryptfs_miscdev_open","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/erofs/erofs_fs.h:1-254","i":0,"name":"erofs_inode_is_data_compressed","action":"fix","after":{"mech":"pass","syntax":"pass","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/eventpoll.c:1547-1813","i":5,"name":"reverse_path_check","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/eventpoll.c:1814-2071","i":1,"name":"ep_modify","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:776-1027","i":4,"name":"de_thread","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:1281-1548","i":0,"name":"begin_new_exec","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:1549-1799","i":0,"name":"bprm_fill_uid","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:1800-2054","i":8,"name":"SYSCALL_DEFINE3(execve","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:1800-2054","i":9,"name":"SYSCALL_DEFINE5(execveat","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:1800-2054","i":10,"name":"COMPAT_SYSCALL_DEFINE3(execve","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}
+{"key":"tierB:/home/odin/pbsd-ref/linux/fs/exec.c:2055-2102","i":0,"name":"COMPAT_SYSCALL_DEFINE5(execveat","action":"fix","after":{"mech":"pass","syntax":"skip","fuzz":"skip"},"status":"fixed"}

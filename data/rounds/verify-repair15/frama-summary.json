@@ -1,0 +1,31 @@
+{
+  "contracts": 1216,
+  "frama": {
+    "fail": 16,
+    "pass": 1194,
+    "type": 5,
+    "unknown": 1
+  },
+  "signature": {
+    "fallback": 9,
+    "real": 1207
+  },
+  "top_fail_messages": [
+    {
+      "m": "unexpected token ';' ",
+      "n": 8
+    },
+    {
+      "m": "unexpected token ')' ",
+      "n": 5
+    },
+    {
+      "m": "expecting ';' before end of annotation ",
+      "n": 2
+    },
+    {
+      "m": "unexpected token ':' ",
+      "n": 1
+    }
+  ]
+}

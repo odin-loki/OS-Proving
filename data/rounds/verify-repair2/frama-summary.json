@@ -1,0 +1,55 @@
+{
+  "contracts": 3763,
+  "frama": {
+    "fail": 94,
+    "pass": 3598,
+    "type": 48,
+    "unknown": 23
+  },
+  "signature": {
+    "fallback": 65,
+    "real": 3698
+  },
+  "top_fail_messages": [
+    {
+      "m": "unexpected token ')' ",
+      "n": 52
+    },
+    {
+      "m": "unexpected token ';' ",
+      "n": 23
+    },
+    {
+      "m": "\\old undefined in this context. Ignoring specifica",
+      "n": 3
+    },
+    {
+      "m": "unexpected token '-' ",
+      "n": 3
+    },
+    {
+      "m": "unexpected token '::' ",
+      "n": 3
+    },
+    {
+      "m": "unexpected token ':' ",
+      "n": 2
+    },
+    {
+      "m": "unexpected token '_Q_' ",
+      "n": 2
+    },
+    {
+      "m": "expecting ';' before _Q_ ",
+      "n": 1
+    },
+    {
+      "m": "expecting ';' before end of annotation ",
+      "n": 1
+    },
+    {
+      "m": "expecting ';' before newfd ",
+      "n": 1
+    }
+  ]
+}

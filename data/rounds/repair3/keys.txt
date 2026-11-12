@@ -1,0 +1,8 @@
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_asan.c:781-1034
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_atomic64.c:1-147
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_blist.c:779-1031
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_capability.c:1-251
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_csan.c:253-507
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_csan.c:508-758
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_csan.c:759-904
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/kern/subr_disk.c:252-299
