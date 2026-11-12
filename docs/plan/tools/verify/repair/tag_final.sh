@@ -10,7 +10,7 @@
 # SPEED: built on WSL-local ext4 ($TC, default ~/kb/scratch/pbsd-tag); the repo shards are re-gzipped (gzip -9, the slow part) only when their content changed since the last run, and
 #   /mnt/c files are copied once (publish/cp) instead of being written line by line. final-tags.jsonl, summary and the shard CONTENTS are identical to the previous version (a shard is rewritten only when its content changed, so no gzip-header churn).
 . "$(dirname "$0")/lc.sh"
-D=/mnt/c/ParanoidBSD/mined-data; F=${F:-$D/final}; R=${R:-/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/lib/code-mined/final-tags}; mkdir -p "$R"
+D=/mnt/c/ParanoidBSD/mined-data; F=${F:-$D/final}; R=${R:-/mnt/c/ParanoidBSD/OS-Proving/docs/plan/lib/code-mined/final-tags}; mkdir -p "$R"
 TC=${TC:-$HOME/kb/scratch/pbsd-tag}; mkdir -p "$TC/shards"; PUBD=$TC; ST=$(state_tsv)
 awk -F'\t' '
   function esc(s) { gsub(/\\/, "\\\\", s); gsub(/"/, "\\\"", s); return s }

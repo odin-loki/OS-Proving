@@ -4,7 +4,7 @@ rem Data: C:\ParanoidBSD\mined-data\repair<N> (repair), verify-repair<N> (re-ver
 set N=%1
 set RB=%2
 set VB=%3
-set R=/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/repair
+set R=/mnt/c/ParanoidBSD/OS-Proving/docs/plan/tools/verify/repair
 if "%RPAR%"=="" set RPAR=100
 if "%VPAR%"=="" set VPAR=120
 start "PBSD round %N% ORCHESTRATOR" cmd /k wsl -d Ubuntu -- bash -lc "export MAXREC=%MAXREC%; bash %R%/round_run.sh %N% %RB% %VB% %RPAR% %VPAR%"

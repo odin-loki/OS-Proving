@@ -13,4 +13,4 @@ timeout /t 5 /nobreak > nul
 start "PBSD mining LOG" cmd /k wsl -d Ubuntu -- bash -lc "tail -n 40 -F %DATA%/miner.log %DATA%/watch.log"
 rem the sync runs in Git Bash on the Windows side (it has the GitHub credentials; WSL has none)
 rem (no cmd /k wrapper: nested quotes around the bash path broke it on 8 Nov 2026 and the sync never started)
-start "PBSD mining SYNC" "C:\Program Files\Git\usr\bin\bash.exe" -lc "bash /c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/mine/mine_sync.sh 300"
+start "PBSD mining SYNC" "C:\Program Files\Git\usr\bin\bash.exe" -lc "bash /c/ParanoidBSD/OS-Proving/docs/plan/tools/mine/mine_sync.sh 300"

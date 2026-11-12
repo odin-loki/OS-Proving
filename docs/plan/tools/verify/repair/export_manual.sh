@@ -6,7 +6,7 @@
 #   {"key","file","start","end","source":"<lines start-end>","functions":[{"i","name","kind","status","prose","contract","reasons":"<every recorded failure, by round>","history":"<status per round>"}]}
 # Output: mined-data/manual/packets/packet-NNNN.jsonl, packets-lowprio/..., manual/index.tsv (packet, records, functions) and manual/functions.tsv (key i name kind status packet).
 # Repo copy: docs/plan/lib/code-mined/manual/{index.tsv,functions.tsv.gz,README.md}. Result format and ingest: ingest_manual.sh.
-. "$(dirname "$0")/lc.sh"; PER=${1:-40}; D=/mnt/c/ParanoidBSD/mined-data; F=$D/final; M=${M:-$D/manual}; R=${R:-/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/lib/code-mined/manual}
+. "$(dirname "$0")/lc.sh"; PER=${1:-40}; D=/mnt/c/ParanoidBSD/mined-data; F=$D/final; M=${M:-$D/manual}; R=${R:-/mnt/c/ParanoidBSD/OS-Proving/docs/plan/lib/code-mined/manual}
 WK=${EXPORT_WORK:-$HOME/kb/scratch/export-work}; mkdir -p "$WK" "$M/work" "$R"; T=$(printf '\t')
 # current annotation of each function: the latest rows file that has it
 ROWS="$(lc "$D/verify/rows.tsv")"; k=1; while true; do if [ $k -eq 1 ]; then W=$D/verify-repair; else W=$D/verify-repair$k; fi; [ -s "$W/rows.tsv" ] || break; ROWS="$ROWS $(lc "$W/rows.tsv")"; k=$((k+1)); done

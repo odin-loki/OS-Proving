@@ -3,5 +3,5 @@ rem start_dsv_finish.cmd <review-budget-usd> [parallel]   Waits for the dsv repa
 set VB=%1
 set VP=%2
 if "%VP%"=="" set VP=100
-set R=/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/repair
+set R=/mnt/c/ParanoidBSD/OS-Proving/docs/plan/tools/verify/repair
 start "PBSD dsv FINISH" cmd /k wsl -d Ubuntu -- bash -lc "bash %R%/dsv_finish.sh %VB% %VP%"

@@ -9,7 +9,7 @@
 #   fuzz   = step 3: pass | fail (counterexample or a trap under the precondition) | skip
 #   xcheck = step 4: agree | disagree | skip ; tiebreak = uphold | overturn | unclear when a sampled disagreement was reviewed
 #   verified = true when nothing failed or disagreed (an upheld disagreement counts as a disagreement) and at least one check passed or agreed
-V=/mnt/c/ParanoidBSD/mined-data/verify; R=/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/lib/code-mined/tags; mkdir -p "$R"
+V=/mnt/c/ParanoidBSD/mined-data/verify; R=/mnt/c/ParanoidBSD/OS-Proving/docs/plan/lib/code-mined/tags; mkdir -p "$R"
 jq -r '"\(.key)\t\(.i)\t\(.frama)\t\(.msg)"' "$V/frama12.jsonl" > "$V/t_frama.tsv"
 [ -s "$V/s3/s3.jsonl" ] && jq -r '"\(.key)\t\(.i)\t\(.s3)"' "$V/s3/s3.jsonl" > "$V/t_s3.tsv" || : > "$V/t_s3.tsv"
 [ -s "$V/xcheck/xcheck.jsonl" ] && jq -r '.key as $k | .verdicts[] | "\($k)\t\(.name)\t\(.verdict)"' "$V/xcheck/xcheck.jsonl" > "$V/t_x.tsv" || : > "$V/t_x.tsv"

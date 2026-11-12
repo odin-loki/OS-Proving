@@ -16,8 +16,8 @@ while true; do
   running=$(MSYS_NO_PATHCONV=1 wsl -d Ubuntu -- bash -c 'pgrep -fc "[s]tep4_all.sh"' 2>/dev/null | tr -d '\r')
   if [ -f "$X/DONE-batch" ] && [ "${running:-0}" = "0" ]; then
     echo "$(date '+%F %T') step 4 finished: re-tagging"
-    MSYS_NO_PATHCONV=1 wsl -d Ubuntu -- bash /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/tag_all.sh > /dev/null 2>&1
-    MSYS_NO_PATHCONV=1 wsl -d Ubuntu -- bash /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/tools/verify/copy_results.sh > /dev/null 2>&1
+    MSYS_NO_PATHCONV=1 wsl -d Ubuntu -- bash /mnt/c/ParanoidBSD/OS-Proving/docs/plan/tools/verify/tag_all.sh > /dev/null 2>&1
+    MSYS_NO_PATHCONV=1 wsl -d Ubuntu -- bash /mnt/c/ParanoidBSD/OS-Proving/docs/plan/tools/verify/copy_results.sh > /dev/null 2>&1
     snap "final, tags re-generated"
     echo "$(date '+%F %T') done"; break
   fi

@@ -1,4 +1,4 @@
-V=/mnt/c/ParanoidBSD/mined-data/verify; R=/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/docs/plan/lib/code-mined/verify-results; mkdir -p $R/tiebreak
+V=/mnt/c/ParanoidBSD/mined-data/verify; R=/mnt/c/ParanoidBSD/OS-Proving/docs/plan/lib/code-mined/verify-results; mkdir -p $R/tiebreak
 cp $V/summary.json $R/step12-summary.json; cp $V/frama-summary.json $R/frama-summary.json; cp $V/s3/summary.json $R/s3-summary.json
 gzip -9 -c $V/s3/s3.jsonl > $R/s3.jsonl.gz; gzip -9 -c $V/frama12.jsonl > $R/frama12.jsonl.gz
 cp $V/tiebreak/index.tsv $V/tiebreak/verdicts-*.tsv $R/tiebreak/; tar -czf $R/tiebreak/packets.tar.gz -C $V/tiebreak packets
