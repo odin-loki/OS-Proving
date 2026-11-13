@@ -381,3 +381,134 @@ Functions: 13000
 - unwind=34: 23
 - unwind=66: 2
 
+## 76% (19000 of 24825) at 2026-11-13 10:03:21
+
+## core run
+
+Functions: 19000
+
+### Label by kind
+
+| **all** | 19000 | 1823 | 2613 | 2313 | 1670 | 1498 | 8975 | 0 | **4436 (23.3%)** |
+| allocator | 558 | 12 | 38 | 137 | 41 | 82 | 241 | 0 | 50 (9%) |
+| arith-helper | 8097 | 1121 | 1289 | 589 | 818 | 346 | 3899 | 0 | 2410 (30%) |
+| bit-op | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 (0%) |
+| bitmap | 539 | 48 | 105 | 47 | 46 | 24 | 269 | 0 | 153 (28%) |
+| bitmask | 50 | 13 | 25 | 0 | 4 | 3 | 5 | 0 | 38 (76%) |
+| error-path | 2633 | 235 | 375 | 366 | 96 | 163 | 1379 | 0 | 610 (23%) |
+| init-teardown | 4221 | 304 | 571 | 658 | 549 | 438 | 1680 | 0 | 875 (21%) |
+| kind | n | PROVED | PROVED-ASSUMING | CONTRACT-ONLY | FALSE | FAILED | UNBUILT | BOUNDED | proved (P+PA) |
+| list-op | 253 | 1 | 5 | 70 | 3 | 52 | 120 | 0 | 6 (2%) |
+| lock-or-sync | 583 | 14 | 56 | 85 | 32 | 88 | 308 | 0 | 70 (12%) |
+| parser | 1280 | 50 | 95 | 210 | 38 | 167 | 703 | 0 | 145 (11%) |
+| refcount | 285 | 2 | 25 | 44 | 15 | 31 | 165 | 0 | 27 (9%) |
+| ring-buffer | 500 | 23 | 29 | 107 | 28 | 104 | 205 | 0 | 52 (10%) |
+|---|---|---|---|---|---|---|---|---|---|
+
+### Label by tree
+
+- other: 62 functions, PROVED 0, PROVED-ASSUMING 0, CONTRACT-ONLY 0, FALSE 0, FAILED 0, UNBUILT 62
+- linux: 12042 functions, PROVED 1644, PROVED-ASSUMING 2227, CONTRACT-ONLY 1978, FALSE 1453, FAILED 1232, UNBUILT 3413
+- bsd-kernel: 2300 functions, PROVED 11, PROVED-ASSUMING 294, CONTRACT-ONLY 231, FALSE 110, FAILED 137, UNBUILT 1511
+- linux-tools: 694 functions, PROVED 68, PROVED-ASSUMING 36, CONTRACT-ONLY 24, FALSE 34, FAILED 44, UNBUILT 486
+- bsd-user: 3902 functions, PROVED 100, PROVED-ASSUMING 56, CONTRACT-ONLY 80, FALSE 73, FAILED 85, UNBUILT 3503
+
+### Why not built (UNBUILT causes, normalised)
+
+-     650 C++ source
+-     352 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/llvm-project
+-     281 [kernel:annot-error] unit.c: Warning: unbound logic variable true. Ignoring logic specific
+-     225 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/sys/vnode.h:629:
+-     205 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/test/
+-     139 [kernel] unit.c: User Error: bitfield width is not a valid integer constant [kernel] Frama
+-     118 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/crypt
+-     106 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssh/inclu
+-      79  syntax error: before or at token: ;
+-      63 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/openzfs/
+-      52 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/processor-tr
+-      47 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/dev/rtw8
+-      47 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/krb5/src/lib/
+-      46 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/libarchive/l
+
+### Per-unit assumptions on proved functions (count)
+
+- bv-sat-uncertified: 703
+- callees-without-spec: 784
+- config: 441
+- header-function-in-probe-unit: 735
+- pointer-or-memory-precondition: 489
+- pointers-modelled-as-disjoint-malloc-objects(no-aliasing,sizes-from-valid): 59
+- probe-adds-module.h-kernel.h-slab.h-device.h: 735
+- stub-headers-EMPTY(option-headers-assumed-off): 287
+- unwind=10: 92
+- unwind=130: 4
+- unwind=34: 34
+- unwind=66: 2
+
+## 100% (24825 of 24825) at 
+
+
+## 100% (24825 of 24825) at 2026-11-13 12:56:50
+
+## core run
+
+Functions: 24806
+
+### Label by kind
+
+| **all** | 24806 | 2388 | 3467 | 2982 | 2148 | 1957 | 11730 | 0 | **5855 (23.6%)** |
+| allocator | 741 | 20 | 59 | 173 | 50 | 110 | 321 | 0 | 79 (11%) |
+| arith-helper | 10505 | 1434 | 1689 | 753 | 1044 | 448 | 5088 | 0 | 3123 (30%) |
+| bit-op | 2 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 (0%) |
+| bitmap | 676 | 62 | 130 | 62 | 58 | 31 | 332 | 0 | 192 (28%) |
+| bitmask | 62 | 15 | 29 | 1 | 7 | 3 | 7 | 0 | 44 (71%) |
+| error-path | 3464 | 317 | 509 | 468 | 126 | 210 | 1814 | 0 | 826 (24%) |
+| init-teardown | 5567 | 407 | 770 | 862 | 710 | 594 | 2197 | 0 | 1177 (21%) |
+| kind | n | PROVED | PROVED-ASSUMING | CONTRACT-ONLY | FALSE | FAILED | UNBUILT | BOUNDED | proved (P+PA) |
+| list-op | 315 | 2 | 11 | 90 | 3 | 59 | 148 | 0 | 13 (4%) |
+| lock-or-sync | 762 | 24 | 68 | 102 | 44 | 112 | 412 | 0 | 92 (12%) |
+| parser | 1679 | 71 | 129 | 268 | 51 | 209 | 931 | 0 | 200 (12%) |
+| refcount | 383 | 4 | 34 | 58 | 18 | 45 | 221 | 0 | 38 (10%) |
+| ring-buffer | 650 | 32 | 39 | 145 | 36 | 136 | 258 | 0 | 71 (11%) |
+|---|---|---|---|---|---|---|---|---|---|
+
+### Label by tree
+
+- other: 81 functions, PROVED 0, PROVED-ASSUMING 0, CONTRACT-ONLY 0, FALSE 0, FAILED 0, UNBUILT 81
+- linux: 15661 functions, PROVED 2144, PROVED-ASSUMING 2960, CONTRACT-ONLY 2530, FALSE 1862, FAILED 1607, UNBUILT 4441
+- bsd-kernel: 3005 functions, PROVED 15, PROVED-ASSUMING 378, CONTRACT-ONLY 307, FALSE 147, FAILED 180, UNBUILT 1969
+- linux-tools: 908 functions, PROVED 91, PROVED-ASSUMING 48, CONTRACT-ONLY 34, FALSE 42, FAILED 56, UNBUILT 635
+- bsd-user: 5151 functions, PROVED 138, PROVED-ASSUMING 81, CONTRACT-ONLY 111, FALSE 97, FAILED 114, UNBUILT 4604
+
+### Why not built (UNBUILT causes, normalised)
+
+-     846 C++ source
+-     442 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/llvm-project
+-     378 [kernel:annot-error] unit.c: Warning: unbound logic variable true. Ignoring logic specific
+-     278 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/sys/vnode.h:629:
+-     267 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/test/
+-     175 [kernel] unit.c: User Error: bitfield width is not a valid integer constant [kernel] Frama
+-     171 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/crypt
+-     133 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssh/inclu
+-     106  syntax error: before or at token: ;
+-      85 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/openzfs/
+-      70 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/processor-tr
+-      64 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/libarchive/l
+-      59 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/dev/rtw8
+-      57 preprocess failed: /mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/krb5/src/lib/
+
+### Per-unit assumptions on proved functions (count)
+
+- bv-sat-uncertified: 911
+- callees-without-spec: 1066
+- config: 599
+- header-function-in-probe-unit: 965
+- pointer-or-memory-precondition: 642
+- pointers-modelled-as-disjoint-malloc-objects(no-aliasing,sizes-from-valid): 75
+- probe-adds-module.h-kernel.h-slab.h-device.h: 965
+- stub-headers-EMPTY(option-headers-assumed-off): 369
+- unwind=10: 126
+- unwind=130: 6
+- unwind=34: 40
+- unwind=66: 2
+
