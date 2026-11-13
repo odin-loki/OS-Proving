@@ -1,0 +1,10 @@
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/cddl/contrib/opensolaris/lib/libdtrace/common/dt_parser.c:3348-3608	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/src/ssl/ssl_hs_server.c:1109-1362	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/src/ssl/ssl_hs_server.c:1363-1613	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/src/x509/x509_decoder.c:518-773	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/tools/client.c:543-831	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/tools/client.c:832-1086	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/tools/sslio.c:260-529	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/tools/twrch.c:274-546	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/tools/twrch.c:547-819	0
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/bearssl/tools/twrch.c:820-1069	0

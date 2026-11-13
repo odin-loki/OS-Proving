@@ -1,0 +1,136 @@
+tierB:/home/odin/pbsd-ref/linux/fs/ext4/inode.c:5351-5601	0	ext4_iget
+tierB:/home/odin/pbsd-ref/linux/net/sctp/stream_sched.c:1-251	16	sctp_sched_get_sched_value_placeholder
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/netpfil/pf/pf_ioctl.c:3383-3633	0	DIOCADDETHRULE
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/netpfil/pf/pf_ioctl.c:3383-3633	1	DIOCGETETHRULESETS
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/netpfil/pf/pf_ioctl.c:3383-3633	2	DIOCGETETHRULESET
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/ufs/ufs/quota.h:1-251	0	QCMD
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/core/kcoreconfigskeleton.h:1-254	0	isImmutable
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/core/kcoreconfigskeleton.h:1-254	1	isDefault
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/core/kcoreconfigskeleton.h:1-254	2	isSaveNeeded
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/core/kcoreconfigskeleton.h:1-254	3	writeFlags
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/gui/kconfigloader.h:1-165	0	KConfigLoader::KConfigLoader(const QString &, QIODevice *, QObject *)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/gui/kconfigloader.h:1-165	1	KConfigLoader::KConfigLoader(KSharedConfigPtr, QIODevice *, QObject *)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kconfig/src/gui/kconfigloader.h:1-165	2	KConfigLoader::KConfigLoader(const KConfigGroup &, QIODevice *, QObject *)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	2	isNull
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	3	totalPhysical
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	4	availablePhysical
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	5	freePhysical
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	6	cached
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	7	buffers
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	8	totalSwapFile
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kcoreaddons/src/lib/util/kmemoryinfo.h:1-134	9	freeSwapFile
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	1	setOwnerPermissions
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	2	setOwningGroupPermissions
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	3	setOthersPermissions
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	4	setMaskPermissions
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	5	ownerPermissions
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	6	basePermissions
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kacl.h:1-196	10	isValid
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	2	KCoreDirLister::openUrl
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	3	KCoreDirLister::stop
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	4	KCoreDirLister::stop
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	6	KCoreDirLister::delayedMimeTypes
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	8	KCoreDirLister::autoUpdate
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	10	KCoreDirLister::showHiddenFiles
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	12	KCoreDirLister::dirOnlyMode
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/kcoredirlister.h:1-255	14	KCoreDirLister::requestMimeTypeWhileListing
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/core/ksslcertificatemanager.h:1-97	0	isErrorIgnored
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/widgets/kpropertiesdialogplugin.h:1-86	0	setDirty
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/widgets/kpropertiesdialogplugin.h:1-86	1	isDirty
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kio/src/widgets/widgetsaskuseractionhandler.cpp:553-561	0	(lambda in WidgetsAskUserActionHandler, QDialog::finished handler)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/frameworks/kwayland/src/client/pointergestures.h:259-399	1	fingerCount
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/backends/wayland/color_manager.cpp:289-329	5	preferred_changed (lambda)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/core/syncobjtimeline.h:1-65	5	SyncTimeline::SyncTimeline(int drmFd, uint32_t handle)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/core/syncobjtimeline.h:1-65	6	SyncTimeline::SyncTimeline(int drmFd)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/effect/effecttogglablestate.cpp:1-260	17	EffectTogglableTouchBorder lambda in setBorders
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/kcms/rules/rulebookmodel.h:1-57	9	RuleBookModel::isSaveNeeded
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/kscreenintegration.cpp:254-264	0	(anonymous lambda in output-config validation)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/opengl/eglnativefence.h:1-41	2	EGLNativeFence::waitSync
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/plugins/kglobalaccel/kglobalaccel_plugin.h:1-34	0	KGlobalAccelImpl::grabKey
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/plugins/kglobalaccel/kglobalaccel_plugin.h:1-34	1	KGlobalAccelImpl::checkKeyPressed
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/plugins/kglobalaccel/kglobalaccel_plugin.h:1-34	2	KGlobalAccelImpl::checkPointerPressed
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/plugins/kglobalaccel/kglobalaccel_plugin.h:1-34	3	KGlobalAccelImpl::checkAxisTriggered
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/kwin/src/plugins/screenshot/screenshot.cpp:252-280	0	renderItem filter lambda (screenshot cull predicate)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/plasma-desktop/kcms/gamecontroller/device.h:1-107	4	Device::buttonState
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/plasma-desktop/kcms/gamecontroller/device.h:1-107	7	Device::onButtonEvent
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/plasma-desktop/kcms/gamecontroller/device.h:1-107	9	Device::onHatEvent
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/kde/plasma-desktop/kcms/spellchecking/spellcheckingdata.h:1-26	2	SpellCheckingData::isDefaults
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/lib/libc/gen/b0335/oracle.c:1317-1511	0	STUB_FUNCn-generated dispatchers (e.g. pthread_mutex_lock, pthread_cond_wait)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/sys/kern/b0217/harness.cpp:1-255	3	tc_get_timecount (lambda)
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/libc/pbsd.userland.libc.gen.frexp.c:1-4	0	frexp
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/libc/pbsd.userland.libc.stdio.fwide.c:1-4	0	fwide
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/libc/pbsd.userland.libc.string.ffsll.c:1-4	0	ffsll
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/msun/pbsd.userland.msun.fabsf.c:1-4	0	fabsf
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/msun/pbsd.userland.msun.fmaximum_mag.c:1-4	0	fmaximum_mag
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/msun/pbsd.userland.msun.fmaximum_magl.c:1-3	0	fmaximum_magl
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/msun/pbsd.userland.msun.lrintf.c:1-4	0	lrintf
+tierB:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/pbsd/userland/msun/pbsd.userland.msun.nextafterl.c:1-3	0	nextafterl
+tierC:/home/odin/pbsd-ref/linux/arch/alpha/math-emu/sfp-util.h:1-36	0	add_ssaaaa
+tierC:/home/odin/pbsd-ref/linux/arch/alpha/math-emu/sfp-util.h:1-36	2	umul_ppmm
+tierC:/home/odin/pbsd-ref/linux/arch/alpha/math-emu/sfp-util.h:1-36	3	udiv_qrnnd
+tierC:/home/odin/pbsd-ref/linux/arch/arc/include/uapi/asm/swab.h:1-99	0	__arch_swab32
+tierC:/home/odin/pbsd-ref/linux/arch/arm/boot/dts/microchip/sama5d2-pinfunc.h:1-301	0	PINMUX_PIN
+tierC:/home/odin/pbsd-ref/linux/arch/arm/mach-sa1100/include/mach/bitfield.h:1-113	3	FMsk
+tierC:/home/odin/pbsd-ref/linux/arch/arm/mach-sa1100/include/mach/bitfield.h:1-113	4	FAlnMsk
+tierC:/home/odin/pbsd-ref/linux/arch/arm/mach-sa1100/include/mach/bitfield.h:1-113	5	F1stBit
+tierC:/home/odin/pbsd-ref/linux/arch/arm/mach-sa1100/include/mach/bitfield.h:1-113	6	FInsrt
+tierC:/home/odin/pbsd-ref/linux/arch/arm/mach-sa1100/include/mach/bitfield.h:1-113	7	FExtr
+tierC:/home/odin/pbsd-ref/linux/arch/arm64/include/asm/kvm_asm.h:253-385	0	__kvm_at
+tierC:/home/odin/pbsd-ref/linux/arch/arm64/include/asm/mem_encrypt.h:1-37	1	dma_addr_unencrypted
+tierC:/home/odin/pbsd-ref/linux/arch/arm64/include/asm/mem_encrypt.h:1-37	2	dma_addr_canonical
+tierC:/home/odin/pbsd-ref/linux/arch/arm64/include/uapi/asm/kvm.h:508-563	0	KVM_ARM_FEATURE_ID_RANGE_IDX
+tierC:/home/odin/pbsd-ref/linux/arch/loongarch/include/asm/uaccess.h:254-266	0	clear_user
+tierC:/home/odin/pbsd-ref/linux/arch/mips/boot/compressed/ashldi3.c:1-2	0	__ashldi3
+tierC:/home/odin/pbsd-ref/linux/arch/mips/include/asm/pgtable-32.h:253-305	2	__swp_entry
+tierC:/home/odin/pbsd-ref/linux/arch/openrisc/include/asm/text-patching.h:1-13	0	patch_insn_write
+tierC:/home/odin/pbsd-ref/linux/arch/parisc/math-emu/dbl_float.h:256-519	1	Dbl_right_align
+tierC:/home/odin/pbsd-ref/linux/arch/parisc/math-emu/dbl_float.h:256-519	8	Dbl_setinfinity
+tierC:/home/odin/pbsd-ref/linux/arch/parisc/math-emu/dbl_float.h:256-519	9	Dbl_setlargest
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/boot/types.h:1-52	0	min
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/boot/types.h:1-52	1	max
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/include/asm/iommu.h:254-323	2	iommu_tce_clear_param_check
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/include/asm/iommu.h:254-323	3	iommu_tce_put_param_check
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/kvm/book3s_emulate.c:269-525	0	kvmppc_emulate_instruction
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/kvm/book3s_paired_singles.c:1069-1263	0	kvmppc_emulate_instruction
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/kvm/emulate_loadstore.c:253-367	0	kvmppc_emulate_instruction
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/lib/sstep.c:1557-1813	0	unnamed-opcode-interpreter (switch body; function name not in excerpt)
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/math-emu/math.c:266-461	0	fpu_emulate (unnamed enclosing fragment)
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/math-emu/math_efp.c:255-508	0	spe (enclosing FP-emulation dispatcher, header not in excerpt)
+tierC:/home/odin/pbsd-ref/linux/arch/powerpc/mm/book3s64/hash_64k.c:268-343	0	hash_page_insert
+tierC:/home/odin/pbsd-ref/linux/arch/riscv/include/asm/csr.h:302-552	0	csr_swap
+tierC:/home/odin/pbsd-ref/linux/arch/riscv/include/asm/csr.h:302-552	1	csr_read
+tierC:/home/odin/pbsd-ref/linux/arch/riscv/include/asm/csr.h:302-552	3	csr_read_set
+tierC:/home/odin/pbsd-ref/linux/arch/riscv/include/asm/csr.h:553-580	2	csr_read_clear
+tierC:/home/odin/pbsd-ref/linux/arch/riscv/include/asm/fpu.h:1-16	0	kernel_fpu_available
+tierC:/home/odin/pbsd-ref/linux/arch/s390/include/asm/cputime.h:1-21	0	cputime_to_nsecs
+tierC:/home/odin/pbsd-ref/linux/arch/s390/include/asm/irqflags.h:1-95	0	__arch_local_irq_stosm
+tierC:/home/odin/pbsd-ref/linux/arch/s390/include/asm/irqflags.h:1-95	1	__arch_local_irq_stnsm
+tierC:/home/odin/pbsd-ref/linux/arch/sh/boot/compressed/ashldi3.c:1-2	0	__ashldi3
+tierC:/home/odin/pbsd-ref/linux/arch/sh/kernel/unwinder.c:1-165	3	unwinder_faulted
+tierC:/home/odin/pbsd-ref/linux/arch/sparc/include/asm/hypervisor.h:1810-2083	0	HV_PCI_DEVICE_BUILD
+tierC:/home/odin/pbsd-ref/linux/arch/sparc/include/asm/hypervisor.h:1810-2083	1	HV_PCI_TSBID
+tierC:/home/odin/pbsd-ref/linux/arch/sparc/include/asm/hypervisor.h:517-768	0	sun4v_mmu_tsb_ctx0
+tierC:/home/odin/pbsd-ref/linux/arch/sparc/include/asm/hypervisor.h:769-1036	0	sun4v_mmu_map_perm_addr
+tierC:/home/odin/pbsd-ref/linux/arch/x86/crypto/ecb_cbc_helpers.h:1-87	0	ECB_WALK_START/ECB_WALK_END (macro-generated skcipher walker)
+tierC:/home/odin/pbsd-ref/linux/arch/x86/crypto/ecb_cbc_helpers.h:1-87	1	ECB_BLOCK (macro)
+tierC:/home/odin/pbsd-ref/linux/arch/x86/crypto/ecb_cbc_helpers.h:1-87	2	CBC_ENC_BLOCK (macro)
+tierC:/home/odin/pbsd-ref/linux/arch/x86/crypto/ecb_cbc_helpers.h:1-87	3	CBC_DEC_BLOCK (macro)
+tierC:/home/odin/pbsd-ref/linux/arch/x86/include/asm/hyperv_timer.h:1-9	0	hv_get_raw_timer
+tierC:/home/odin/pbsd-ref/linux/arch/x86/kvm/pmu.h:1-235	0	fixed_ctrl_field
+tierC:/home/odin/pbsd-ref/linux/arch/x86/kvm/trace.h:770-1020	0	kei_decode_mode
+tierC:/home/odin/pbsd-ref/linux/arch/xtensa/include/asm/mtd-xip.h:1-14	0	xip_irqpending
+tierC:/home/odin/pbsd-ref/linux/arch/xtensa/include/asm/mtd-xip.h:1-14	1	xip_currtime
+tierC:/home/odin/pbsd-ref/linux/arch/xtensa/include/asm/mtd-xip.h:1-14	2	xip_elapsed_since
+tierC:/home/odin/pbsd-ref/linux/drivers/block/xen-blkback/common.h:260-397	0	xen_blkif_get
+tierC:/home/odin/pbsd-ref/linux/drivers/block/xen-blkback/common.h:260-397	1	xen_blkif_put
+tierC:/home/odin/pbsd-ref/linux/drivers/clk/meson/parm.h:1-46	1	PARM_SET
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/amd/amdgpu/amdgpu_sdma.h:1-204	0	NUM_SDMA
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/amd/amdgpu/jpeg_v5_0_1.c:1-254	4	jpeg_v5_0_1_hw_start_sriov_placeholder
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/amd/display/dc/sspl/dc_spl_filters.h:1-15	0	convert_filter_s1_10_to_s1_12
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/amd/pm/swsmu/smu11/smu_v11_0.c:1015-1269	8	smu_van_speed_pwm_placeholder
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/i915/pxp/intel_pxp_cmd_interface_cmn.h:1-42	0	PXP_APIVER
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/imagination/pvr_device.h:257-509	0	PVR_FEATURE_VALUE
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/rockchip/rockchip_drm_vop2.h:1-253	0	VOP2_VERSION
+tierC:/home/odin/pbsd-ref/linux/drivers/gpu/drm/xe/xe_svm.c:758-1025	13	xe_svm_range_valid_fault_us_stats_incr
+tierC:/home/odin/pbsd-ref/linux/drivers/infiniband/hw/hfi1/trace_tx.h:545-795	7	trace_hfi1_bct
+tierC:/home/odin/pbsd-ref/linux/drivers/media/common/b2c2/flexcop-sram.c:252-364	2	flexcop_sram_detect

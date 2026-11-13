@@ -21,7 +21,7 @@ if [ ! -s "$S" ]; then
 fi
 cp "$S" "$OUT/sample.tsv"
 n=$(wc -l <"$S"); say "core run: $n functions, P=$P, chunk=$CH"
-last=0; chunkno=0
+last=${CORE_START:-0}; chunkno=0   # CORE_START: skip chunks already finished (a restart need not sweep them again)
 while [ "$last" -lt "$n" ]; do
   [ -f "$R/STOP" ] && { say "STOP file present"; break; }
   a=$((last+1)); z=$((last+CH)); [ "$z" -gt "$n" ] && z=$n

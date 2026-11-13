@@ -1,0 +1,12 @@
+{
+  "functions": 2982,
+  "status": {
+    "dropped": 114,
+    "fixed": 2696,
+    "still-rejected": 172
+  },
+  "still_rejected_because": {
+    "fuzz": 3,
+    "mech": 169
+  }
+}

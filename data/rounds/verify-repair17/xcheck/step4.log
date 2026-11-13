@@ -1,0 +1,37 @@
+2026-11-13 09:14:14 step 4: 1045 records to do (cap 999999), budget $8, spent so far $0, parallel 100 (continuous stream)
+2026-11-13 09:14:34 step 4: 82 records done, spent $0.0487, failed 0
+2026-11-13 09:14:54 step 4: 147 records done, spent $0.1216, failed 0
+2026-11-13 09:15:14 step 4: 213 records done, spent $0.2131, failed 0
+2026-11-13 09:15:34 step 4: 274 records done, spent $0.3081, failed 0
+2026-11-13 09:15:54 step 4: 344 records done, spent $0.4402, failed 0
+2026-11-13 09:16:15 step 4: 396 records done, spent $0.5283, failed 0
+2026-11-13 09:16:35 step 4: 432 records done, spent $0.5902, failed 0
+2026-11-13 09:16:55 step 4: 499 records done, spent $0.7458, failed 0
+2026-11-13 09:17:15 step 4: 558 records done, spent $0.8601, failed 0
+2026-11-13 09:17:35 step 4: 612 records done, spent $0.9943, failed 0
+2026-11-13 09:17:55 step 4: 665 records done, spent $1.0897, failed 0
+2026-11-13 09:18:15 step 4: 710 records done, spent $1.1732, failed 0
+2026-11-13 09:18:35 step 4: 759 records done, spent $1.2873, failed 0
+2026-11-13 09:18:55 step 4: 800 records done, spent $1.3749, failed 0
+2026-11-13 09:19:15 step 4: 847 records done, spent $1.4854, failed 0
+2026-11-13 09:19:35 step 4: 913 records done, spent $1.6174, failed 0
+2026-11-13 09:19:55 step 4: 963 records done, spent $1.7031, failed 0
+2026-11-13 09:20:15 step 4: 996 records done, spent $1.7931, failed 0
+2026-11-13 09:20:35 step 4: 1010 records done, spent $1.8616, failed 0
+2026-11-13 09:20:55 step 4: 1020 records done, spent $1.9137, failed 0
+2026-11-13 09:21:16 step 4: 1031 records done, spent $1.9978, failed 0
+2026-11-13 09:21:36 step 4: 1032 records done, spent $2.0188, failed 0
+2026-11-13 09:21:56 step 4: 1036 records done, spent $2.0447, failed 0
+2026-11-13 09:22:16 step 4: 1037 records done, spent $2.0522, failed 0
+2026-11-13 09:22:36 step 4: 1038 records done, spent $2.0555, failed 0
+2026-11-13 09:22:56 step 4: 1039 records done, spent $2.0596, failed 0
+2026-11-13 09:23:16 step 4: 1042 records done, spent $2.0885, failed 0
+2026-11-13 09:23:36 step 4: 1042 records done, spent $2.0970, failed 1
+2026-11-13 09:23:56 step 4: 1042 records done, spent $2.1054, failed 1
+2026-11-13 09:24:16 step 4: 1042 records done, spent $2.1054, failed 1
+2026-11-13 09:24:36 step 4: 1042 records done, spent $2.1054, failed 1
+2026-11-13 09:24:56 step 4: 1042 records done, spent $2.1054, failed 1
+2026-11-13 09:25:16 step 4: 1043 records done, spent $2.1084, failed 1
+2026-11-13 09:25:36 step 4: 1043 records done, spent $2.1084, failed 1
+2026-11-13 09:25:57 step 4: 1043 records done, spent $2.1169, failed 1
+2026-11-13 09:26:01 step 4 finished: 1043 records, spent $2.1169

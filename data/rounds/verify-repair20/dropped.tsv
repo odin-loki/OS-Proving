@@ -1,0 +1,121 @@
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/llvm-project/libcxx/include/__vector/vector.h:257-507	23	insert(const_iterator,const_reference)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/llvm-project/lld/ELF/InputSection.h:258-511	11	EhInputSection::getParent
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lopcodes.h:1-251	0	getarg
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lopcodes.h:1-251	1	GET_OPCODE
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lopcodes.h:1-251	4	GETARG_sBx
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lopcodes.h:1-251	5	GETARG_sJ
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lopcodes.h:252-405	3	isOT
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lopcodes.h:252-405	4	isIT
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lvm.h:1-141	0	intop
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lvm.h:1-141	1	luaV_shiftl
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lvm.h:1-141	2	luaV_shiftr
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lvm.h:1-141	10	cvt2str
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/lua/src/lvm.h:1-141	11	cvt2num
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/mandoc/mdoc_validate.c:2066-2316	0	post_er_order
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/ntp/libntp/lib/isc/unix/include/isc/stdtime.h:1-64	0	isc_stdtime_convert32
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/opencsd/decoder/include/common/comp_attach_notifier_i.h:1-63	0	attachNotify
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:100744-101015	2	OP_Next
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:100744-101015	4	OP_SorterInsert
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:100744-101015	5	OP_IdxDelete
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:100744-101015	7	OP_IdxRowid
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:101553-101820	3	OP_Program
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:102590-102847	0	OP_VCheck
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:102590-102847	1	OP_VInitIn
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:102590-102847	2	OP_VFilter
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:102590-102847	3	OP_VColumn
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:102590-102847	4	OP_VNext
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:47293-47545	0	winIsDirSep
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:47293-47545	1	winGetDirSep
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:95549-95842	1	OP_Halt
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:97441-97724	0	OP_Column
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:97441-97724	1	OP_TypeCheck
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:98511-98766	1	OP_ReopenIdx
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:98511-98766	3	OP_OpenWrite
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99369-99653	0	OP_SeekScan
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99369-99653	4	OP_NoConflict/OP_NotFound/OP_Found
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99654-99906	0	OP_Found/OP_NotFound/OP_NoConflict/OP_IfNoHope
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99654-99906	1	OP_SeekRowid/OP_NotExists
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99654-99906	2	OP_Sequence
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99654-99906	3	OP_NewRowid
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.c:99907-100191	0	OP_NewRowid
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/sqlite3/sqlite3.h:7124-7410	0	sqlite3_enable_shared_cache
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/xz/src/common/tuklib_integer.h:1-271	0	byteswap16
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/xz/src/common/tuklib_integer.h:1-271	1	byteswap32
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/contrib/xz/src/common/tuklib_integer.h:1-271	2	byteswap64
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/crypto/asn1/tasn_typ.c:1-82	4	ASN1_BOOLEAN_new
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/providers/implementations/digests/md2_prov.c:1-24	4	IMPLEMENT_digest_functions(name, CTX, blksize, dgstsize, flags, init, upd, fin)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/providers/implementations/digests/ripemd_prov.c:1-24	4	IMPLEMENT_digest_functions(name, CTX, blksize, dgstsize, flags, init, upd, fin)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/crypto/openssl/providers/implementations/digests/wp_prov.c:1-24	4	IMPLEMENT_digest_functions(name, CTX, blksize, dgstsize, flags, init, upd, fin)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/lib/libc/tests/stdio/open_wmemstream_test.c:1-198	4	SEEK_FAIL
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/lib/libc/tests/stdio/open_wmemstream_test.c:1-198	5	SEEK_OK
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/compat/linuxkpi/common/include/linux/wordpart.h:1-13	0	lower_32_bits
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/compat/linuxkpi/common/include/linux/wordpart.h:1-13	1	upper_32_bits
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/device-tree/include/dt-bindings/pinctrl/r7s72100-pinctrl.h:1-17	0	RZA1_PINMUX
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/device-tree/src/arm/microchip/sama5d2-pinfunc.h:1-301	0	PINMUX_PIN
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/edk2/Include/Base.h:1046-1296	1	RETURN_ERROR
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/edk2/Include/Base.h:1297-1402	0	SIGNATURE_16
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/edk2/Include/Base.h:1297-1402	1	SIGNATURE_32
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/edk2/Include/Library/BaseLib.h:7404-7662	10	AsmEnablePaging64
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/zlib/zlib.h:253-506	0	deflate
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/contrib/zlib/zlib.h:253-506	2	inflate
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/hpt27xx/ldm.h:1-257	0	hpt_time_after_eq
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/hpt27xx/ldm.h:1-257	1	hpt_time_after
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/hptnr/ldm.h:1-258	0	hpt_time_after_eq
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/hptnr/ldm.h:1-258	1	hpt_time_after
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/hptrr/ldm.h:1-256	0	hpt_time_after_eq
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/hptrr/ldm.h:1-256	1	hpt_time_after
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/isci/scil/scic_sds_controller.h:509-760	3	scic_sds_io_sequence_increment
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/isci/scil/scic_sds_port.h:253-506	0	scic_sds_port_decrement_request_count
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/isci/scil/scic_sds_remote_node_context.h:260-382	1	scic_sds_remote_node_context_get_remote_node_index
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/iwx/if_iwxreg.h:259-520	0	IWX_RX_QUEUE_CB_SIZE
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	1	SET_IO_INDEX
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	2	GET_INITIATOR_INDEX
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	3	SET_INITIATOR_INDEX
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	4	GET_ALIAS
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	5	SET_ALIAS
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	6	GET_PORT
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	7	SET_PORT
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	8	GET_HOST_INDEX_0100
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	9	SET_HOST_INDEX_0100
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	10	GET_IOC_INDEX_0100
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	11	SET_IOC_INDEX_0100
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	12	GET_INITIATOR_INDEX_0100
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/mpt/mpilib/mpi_targ.h:520-660	13	SET_INITIATOR_INDEX_0100
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/pms/freebsd/driver/common/lxcommon.h:555-817	7	AG_SWAP16
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/pms/freebsd/driver/common/lxcommon.h:555-817	8	AG_SWAP24
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/pms/freebsd/driver/common/lxcommon.h:555-817	9	AG_SWAP32
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/pms/freebsd/driver/common/lxcommon.h:555-817	10	LOW_32_BITS
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/pms/freebsd/driver/common/lxcommon.h:555-817	11	HIGH_32_BITS
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/include/icp_qat_fw_init_admin.h:1-220	3	ICP_QAT_FW_COMN_HEARTBEAT_FLAG_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	0	ICP_QAT_FW_COMN_NEXT_ID_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	1	ICP_QAT_FW_COMN_NEXT_ID_SET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	2	ICP_QAT_FW_COMN_CURR_ID_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	3	ICP_QAT_FW_COMN_CURR_ID_SET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	4	ICP_QAT_FW_COMN_RESP_STATUS_BUILD
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	5	ICP_QAT_FW_COMN_RESP_CRYPTO_STAT_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	6	ICP_QAT_FW_COMN_RESP_PKE_STAT_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	7	ICP_QAT_FW_COMN_RESP_CMP_STAT_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	8	ICP_QAT_FW_COMN_RESP_XLAT_STAT_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw.h:1017-1271	9	ICP_QAT_FW_COMN_RESP_XLT_INV_APPLIED_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw_comp.h:768-1029	0	ICP_QAT_FW_COMP_ZEROPAD_GET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw_comp.h:768-1029	1	ICP_QAT_FW_COMP_ZEROPAD_SET
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qat/qat_api/firmware/include/icp_qat_fw_la.h:252-542	0	ICP_QAT_FW_LA_FLAGS_BUILD
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/dev/qlxge/qls_def.h:255-374	0	QL_ALIGN
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211.h:252-539	3	WME_AC_TO_TID
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211.h:252-539	4	TID_TO_WME_AC
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211.h:252-539	5	WME_UAPSD_AC_ENABLED
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211.h:252-539	6	WME_UAPSD_MAXSP
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211_freebsd.h:253-506	3	ieee80211_time_after
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211_freebsd.h:253-506	4	ieee80211_time_after_eq
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/net80211/ieee80211_freebsd.h:253-506	5	IFNET_IS_UP_RUNNING
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/riscv/include/riscvreg.h:254-286	0	csr_read
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/sys/riscv/include/riscvreg.h:254-286	1	csr_read64
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/bmap.cc:255-367	1	lambda: FUSE_READ matcher
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/bmap.cc:255-367	2	lambda: FUSE_GETATTR matcher
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/bmap.cc:255-367	3	lambda: FUSE_READ handler
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/bmap.cc:255-367	4	lambda: FUSE_GETATTR handler
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/fallocate.cc:254-511	0	anonymous lambda (FUSE_STATFS matcher)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/fallocate.cc:254-511	1	anonymous lambda (statfs responder)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/fallocate.cc:254-511	2	anonymous lambda (FUSE_GETATTR matcher)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/tests/sys/fs/fusefs/fallocate.cc:254-511	3	anonymous lambda (getattr responder)
+tierC:/mnt/c/ParanoidBSD/dreamy-mahavira-7e0e79/hbsd/src/usr.sbin/ntp/ntpdc/nl.c:1-282	0	main

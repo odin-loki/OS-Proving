@@ -1,0 +1,7 @@
+2026-11-13 09:13:58 [round 17] start: repair budget $0, review budget $8
+2026-11-13 09:13:58 [round 17] repair stage over: 1119 records repaired, spent $0
+2026-11-13 09:13:58 [round 17] re-verify
+2026-11-13 09:14:14 [round 17] re-verified: {"functions":1806,"status":{"dropped":171,"fixed":1620,"still-rejected":15},"still_rejected_because":{"mech":15}}
+records: 1045  functions: 1620
+2026-11-13 09:26:18 [round 17] review stage over: 1043 records, spent $2.1169, failed keys 2
+2026-11-13 09:26:32 [round 17] round done

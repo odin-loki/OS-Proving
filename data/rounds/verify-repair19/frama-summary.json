@@ -1,0 +1,12 @@
+{
+  "contracts": 67,
+  "frama": {
+    "pass": 66,
+    "unknown": 1
+  },
+  "signature": {
+    "fallback": 1,
+    "real": 66
+  },
+  "top_fail_messages": []
+}

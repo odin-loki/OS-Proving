@@ -1,0 +1,10 @@
+2026-11-13 09:13:54 [cl_finish] after dedupe vs the status table: 1806 function results to ingest, 1540 skipped (already fixed-agree)
+2026-11-13 09:13:55 [cl_finish] ingest: 3346 function results (206 drops) from: sonnet-tail opus-fail
+selected functions: 67724
+low priority (never attempted, driver-glue): assignments listed in functions.tsv, packets not written (LOW=1 writes them)
+  /mnt/c/ParanoidBSD/mined-data/manual/packets: 240 files written/removed
+  /mnt/c/ParanoidBSD/mined-data/manual/packets-lowprio: 0 files written/removed
+packets (main): 212, low priority: 0; functions main 8714, low 59010
+repo shards rewritten: 12
+{"functions":1135593,"status":{"dropped":1187,"verified":521729,"unchecked":548215,"rejected":64462}}
+2026-11-13 09:27:35 [cl_finish] finished
