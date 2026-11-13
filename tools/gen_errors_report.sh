@@ -151,7 +151,11 @@ While reading, the agents flagged the following as possible real bugs. None was 
 
 About 60 candidate defects in total. Each needs a reproduction or a maintainer's reading before it is called a bug.
 
-## 7. What this document does not claim
+## 7. Where every individual error is recorded
+
+Every error event above is logged one by one in the error dataset (`data/errors/`, see its README and `COUNTS.md` for the event counts per stage, check and result): the function, the check, the message or counterexample, the original annotation, and every repair attempt. The dataset is rebuilt by `tools/build_error_dataset.sh`. The per-error reasons that exist only as free text (reviewer reasons, hand-fix notes) are in the `detail` field.
+
+## 8. What this document does not claim
 
 - It does not claim the unchecked functions are correct. "Verified" means the annotation passed the checks and an independent reviewer; "proved" is reserved for machine-checked proofs.
 - Counts marked agent-reported are the agents' own tallies. They are indicative, not audited.
